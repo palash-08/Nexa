@@ -2,6 +2,7 @@
 
 echo "Creating ext4 file systems on each device.........."
 pause 4
+mkfs -t ext4 /dev/nvme1n1
 mkfs -t ext4 /dev/nvme2n1
 mkfs -t ext4 /dev/nvme3n1
 mkfs -t ext4 /dev/nvme4n1
