@@ -3,10 +3,11 @@ echo "Installing lolMiner..."
 cd
 wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.72/lolMiner_v1.72_Lin64.tar.gz
 tar -xvf lolMiner_v1.72_Lin64.tar.gz
-
+cd chialol
 mv nexa.sh /home/ubuntu/1.72
 
 echo "Installing NVidia CUDA SDK..."
+cd
 cd 1.72
 sudo apt update
 wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin
