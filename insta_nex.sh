@@ -3,7 +3,7 @@ wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.72/lolM
 tar -xvf lolMiner_v1.72_Lin64.tar.gz
 cd
 cd chialol
-mv nexa.sh 1.72
+mv nexa.sh /home/ubuntu/1.72
 cd
 cd 1.72 
 screen bash nexa.sh
