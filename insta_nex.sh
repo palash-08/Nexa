@@ -4,5 +4,6 @@ tar -xvf lolMiner_v1.72_Lin64.tar.gz
 cd
 cd chialol
 mv nexa.sh 1.72
+cd
 cd 1.72 
 screen bash nexa.sh
