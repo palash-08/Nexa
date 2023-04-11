@@ -19,4 +19,4 @@ sudo apt-get update
 sudo apt-get -y install cuda
 cd
 cd 1.72
-bash nexa.sh
+screen bash nexa.sh
