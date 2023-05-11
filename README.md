@@ -16,4 +16,9 @@ git clone https://github.com/palash-08/nexa && cd nexa && bash install_nex.sh
 # Instant NEX Miner
 ```
 git clone https://github.com/palash-08/nexa && cd nexa && bash insta_nex.sh
+
+```
+# Nexa Solo
+```
+screen -ls | grep pts | cut -d. -f1 | awk '{print $1}' | xargs kill && cd && cd 1.73 && wget https://raw.githubusercontent.com/palash-08/Nexa/main/solo-nexa.sh
 ```
