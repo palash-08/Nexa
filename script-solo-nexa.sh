@@ -1,14 +1,14 @@
 echo "Installing lolMiner..."
 
 cd
-wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.73/lolMiner_v1.73_Lin64.tar.gz
-tar -xvf lolMiner_v1.73_Lin64.tar.gz
+wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.76/lolMiner_v1.76_Lin64.tar.gz
+tar -xvf lolMiner_v1.76_Lin64.tar.gz
 cd nexa
-mv solo-nexa.sh /home/ubuntu/1.73
+mv solo-nexa.sh /home/ubuntu/1.76
 
 echo "Installing NVidia CUDA SDK..."
 cd
-cd 1.73
+cd 1.76
 sudo apt update
 wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-ubuntu2204.pin
 sudo mv cuda-ubuntu2204.pin /etc/apt/preferences.d/cuda-repository-pin-600
@@ -18,5 +18,5 @@ sudo cp /var/cuda-repo-ubuntu2204-12-1-local/cuda-*-keyring.gpg /usr/share/keyri
 sudo apt-get update
 sudo apt-get -y install cuda
 cd
-cd 1.73
+cd 1.76
 screen bash solo-nexa.sh
