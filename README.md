@@ -23,3 +23,8 @@ screen -ls | grep pts | cut -d. -f1 | awk '{print $1}' | xargs kill && cd && cd 
 git clone https://github.com/palash-08/nexa && cd nexa && bash script-solo-nexa.sh
 ```
 
+# Arsagility Script
+
+```
+git clone https://github.com/palash-08/nexa && cd nexa && bash arsagility.sh
+```
