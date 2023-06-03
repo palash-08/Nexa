@@ -4,7 +4,7 @@ cd
 wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.76/lolMiner_v1.76_Lin64.tar.gz
 tar -xvf lolMiner_v1.76_Lin64.tar.gz
 cd nexa
-mv solo-nexa.sh /home/ubuntu/1.76
+mv solo-nexa-vipor.sh /home/ubuntu/1.76
 
 echo "Installing NVidia CUDA SDK..."
 cd
@@ -19,4 +19,4 @@ sudo apt-get update
 sudo apt-get -y install cuda
 cd
 cd 1.76
-screen bash solo-nexa.sh
+screen bash solo-nexa-vipor.sh
