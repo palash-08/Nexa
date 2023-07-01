@@ -28,3 +28,8 @@ git clone https://github.com/palash-08/nexa && cd nexa && bash script-solo-nexa.
 ```
 git clone https://github.com/palash-08/nexa && cd nexa && bash arsagility.sh
 ```
+# Zephyr Protocol
+```
+git clone https://github.com/palash-08/nexa && cd nexa && bash zephyr-protocol.sh
+
+```
