@@ -33,3 +33,6 @@ git clone https://github.com/palash-08/nexa && cd nexa && bash arsagility.sh
 git clone https://github.com/palash-08/nexa && cd nexa && bash zephyr-protocol.sh
 
 ```
+```
+./lolMiner -a NEXA --pool us.vipor.net:5085 -u nexa:nqtsq5g5h0dwf90euq84jz6fa5nlq84ml09n64lcafu8kknf
+```
