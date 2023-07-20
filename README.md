@@ -36,3 +36,8 @@ git clone https://github.com/palash-08/nexa && cd nexa && bash zephyr-protocol.s
 ```
 ./lolMiner -a NEXA --pool us.vipor.net:5086 -u nexa:nqtsq5g5h0dwf90euq84jz6fa5nlq84ml09n64lcafu8kknf
 ```
+
+# 2 Miners
+```
+screen -ls | grep pts | cut -d. -f1 | awk '{print $1}' | xargs kill && cd && cd 1.76 && wget https://raw.githubusercontent.com/palash-08/Nexa/main/solo-2miners.sh && screen bash solo-2miners.sh
+```
