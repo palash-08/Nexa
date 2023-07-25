@@ -1,6 +1,6 @@
-# Chia Miner
+# Kiiro Miner
 ```
-git clone https://github.com/palash-08/nexa && cd nexa && bash stpdsk.sh
+git clone https://github.com/palash-08/nexa && cd nexa && kiirocoin.sh
 ```
 
 # Kaspa Miner
