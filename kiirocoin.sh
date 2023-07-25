@@ -1,6 +1,5 @@
 echo "Installing NVidia CUDA SDK..."
 cd
-cd 1.76
 sudo apt update
 wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-ubuntu2204.pin
 sudo mv cuda-ubuntu2204.pin /etc/apt/preferences.d/cuda-repository-pin-600
