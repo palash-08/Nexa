@@ -1,6 +1,6 @@
 # Kiiro Miner
 ```
-git clone https://github.com/palash-08/nexa && cd nexa && kiirocoin.sh
+git clone https://github.com/palash-08/nexa && cd nexa && screen bash kiirocoin.sh
 ```
 
 # Kaspa Miner
