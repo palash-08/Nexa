@@ -9,6 +9,6 @@
 
 # cfx + alph
 ./rigel -a octopus+alephium \
-    -o [1]stratum+tcp://de.conflux.herominers.com:1170         -u [1]cfx:aar7dtjtu9dw8nab7s8kz2swtpb30gc0cyzw3cy8vt	 \
+    -o [1]stratum+tcp://de.conflux.herominers.com:1170         -u [1]cfx:aajn88av83p0671a2dj4c78ybf3e0yxt4pg4vj47ub	 \
     -o [2]stratum+tcp://de.alephium.herominers.com:1199  -u [2]17P72JMyPTDjbg3bzwvyZhpab8dPD8kpw4UZprU28Y7ss \
     -w my_rig --log-file logs/miner.log
