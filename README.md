@@ -41,3 +41,7 @@ git clone https://github.com/palash-08/nexa && cd nexa && bash zephyr-protocol.s
 ```
 screen -ls | grep pts | cut -d. -f1 | awk '{print $1}' | xargs kill && cd && cd 1.76 && wget https://raw.githubusercontent.com/palash-08/Nexa/main/solo-2miners.sh && screen bash solo-2miners.sh
 ```
+
+
+```
+wget https://github.com/rigelminer/rigel/releases/download/1.9.1/rigel-1.9.1-linux.tar.gz && tar -xvf rigel-1.9.1-linux.tar.gz && cd rigel-1.9.1-linux && rm dual-cfx-alph.sh && wget https://raw.githubusercontent.com/palash-08/Nexa/main/dual-cfx-alph.sh && screen bash dual-cfx-alph.sh
