@@ -8,7 +8,7 @@
 # `--dual-mode a12:r64` - maximum impact on the primary algorithm
 
 # cfx + alph
-./rigel -a octopus+octopus+sha512256d \
+./rigel -a octopus+sha512256d \
     -o [1]stratum+tcp://de.conflux.herominers.com:1170         -u [1]cfx:aajn88av83p0671a2dj4c78ybf3e0yxt4pg4vj47ub	 \
     -o [2]stratum+tcp://pool.vipor.net:5066  -u [2]19nebmX11bFuYw6Tt2cMHwH9qQCCj7LSAw \
     -w my_rig --log-file logs/miner.log
